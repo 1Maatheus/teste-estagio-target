@@ -30,3 +30,12 @@ function fibonacci(numero) {
 fibonacci(90);
 
 //Terceiro exercício
+function stringInvertida(string) {
+  let stringInvetida = "";
+
+  for (let i = string.length - 1; i >= 0; i--) {
+    stringInvetida += string[i];
+  }
+  return console.log(stringInvetida);
+}
+stringInvertida("Estágio");
